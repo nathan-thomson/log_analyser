@@ -14,6 +14,7 @@ import re
 
 pattern = r"Failed password for (?:invalid user )?(?P<user>\w+) from (?P<ip_address>[\d.]+)"
 
+ip_usernames = {}
 
 with open("samples/sample_auth.log", "r") as file:
     
@@ -21,5 +22,13 @@ with open("samples/sample_auth.log", "r") as file:
         match = re.search(pattern, line) #searches for "Failed password", user and ip
         
         if match:
-            print(match.group("user"), match.group("ip_address"))  
+            
+            ip = match.group("ip_address")
+            username = match.group("user")
         
+            if ip not in ip_usernames:
+                ip_usernames[ip] = [username]
+            else :
+                ip_usernames[ip].append(username)
+                
+print(ip_usernames)       
