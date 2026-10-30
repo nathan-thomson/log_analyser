@@ -1,0 +1,32 @@
+Oct 30 09:10:01 webserver CRON[2101]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 30 09:10:14 webserver sshd[2110]: Accepted publickey for deploy from 192.0.2.25 port 50110 ssh2
+Oct 30 09:11:02 webserver sshd[2121]: Failed password for root from 203.0.113.45 port 51122 ssh2
+Oct 30 09:11:05 webserver sshd[2121]: Failed password for invalid user admin from 203.0.113.45 port 51130 ssh2
+Oct 30 09:11:20 webserver sshd[2130]: Failed password for nathan from 192.0.2.10 port 60201 ssh2
+Oct 30 09:11:31 webserver sshd[2130]: Accepted password for nathan from 192.0.2.10 port 60201 ssh2
+Oct 30 09:12:02 webserver sshd[2141]: Failed password for root from 198.51.100.23 port 44010 ssh2
+Oct 30 09:12:09 webserver sshd[2121]: Failed password for root from 203.0.113.45 port 51144 ssh2
+Oct 30 09:12:40 webserver sshd[2150]: Invalid user pi from 203.0.113.99 port 38800
+Oct 30 09:12:42 webserver sshd[2150]: Failed password for invalid user pi from 203.0.113.99 port 38800 ssh2
+Oct 30 09:13:15 webserver sshd[2141]: Failed password for invalid user ubuntu from 198.51.100.23 port 44022 ssh2
+Oct 30 09:13:18 webserver sshd[2121]: Failed password for invalid user test from 203.0.113.45 port 51150 ssh2
+Oct 30 09:14:01 webserver CRON[2160]: pam_unix(cron:session): session closed for user root
+Oct 30 09:14:22 webserver sshd[2150]: Failed password for invalid user pi from 203.0.113.99 port 38812 ssh2
+Oct 30 09:14:30 webserver sshd[2121]: Failed password for root from 203.0.113.45 port 51161 ssh2
+Oct 30 09:15:05 webserver sshd[2141]: Failed password for root from 198.51.100.23 port 44030 ssh2
+Oct 30 09:15:40 webserver sshd[2172]: Invalid user guest from 198.51.100.7 port 40022
+Oct 30 09:15:42 webserver sshd[2172]: Failed password for invalid user guest from 198.51.100.7 port 40022 ssh2
+Oct 30 09:16:10 webserver sshd[2121]: Failed password for invalid user admin from 203.0.113.45 port 51170 ssh2
+Oct 30 09:16:33 webserver sshd[2150]: Failed password for invalid user pi from 203.0.113.99 port 38820 ssh2
+Oct 30 09:17:02 webserver sshd[2141]: Failed password for invalid user ubuntu from 198.51.100.23 port 44041 ssh2
+Oct 30 09:17:12 webserver sshd[2185]: Accepted publickey for nathan from 192.0.2.10 port 60301 ssh2
+Oct 30 09:17:45 webserver sshd[2121]: Failed password for invalid user oracle from 203.0.113.45 port 51182 ssh2
+Oct 30 09:18:03 webserver sshd[2121]: Connection closed by authenticating user root 203.0.113.45 port 51190 [preauth]
+Oct 30 09:18:20 webserver sshd[2172]: Failed password for invalid user guest from 198.51.100.7 port 40031 ssh2
+Oct 30 09:18:5
+Oct 30 09:19:10 webserver sshd[2141]: Failed password for root from 198.51.100.23 port 44055 ssh2
+Oct 30 09:19:44 webserver systemd[1]: Started Daily apt download activities.
+Oct 30 09:20:02 webserver sshd[2150]: Failed password for invalid user pi from 203.0.113.99 port 38831 ssh2
+Oct 30 09:20:31 webserver sshd[2121]: Failed password for root from 203.0.113.45 port 51201 ssh2
+Oct 30 09:21:05 webserver sshd[2199]: Failed password for root from
+Oct 30 09:22:40 webserver sshd[2141]: Received disconnect from 198.51.100.23 port 44060:11: Bye Bye [preauth]
